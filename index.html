@@ -15,102 +15,108 @@
   <body>
     <div class="container">
       <div class="jumpbotron">
-        <h1>API discussion</h1>
+        <h1>Pokemon API</h1>
+        <p>Let's check out an API ourselves</p>
+        <ol>
+          <li>
+            Open
+            <a href="https://pokeapi.co/docs/v2.html/" target="_blank"
+              >Pokeapi Documentation</a
+            >
+            <ul>
+              <li>This is the Documentation for the Pokemon API</li>
+            </ul>
+          </li>
+          <li>
+            On the left under Contents (sidebar) click the
+            <a
+              href="https://pokeapi.co/docs/v2.html#pokemon-section"
+              target="_blank"
+              >Pokemon</a
+            >
+            link
+            <ul>
+              <li>This will open all the Pokemon <strong>endpoints</strong></li>
+            </ul>
+          </li>
+          <li></li>
+        </ol>
+        <h2>How do we get information from an API?</h2>
+        <p>
+          By combining the <strong>base URL</strong> with and
+          <strong>endpoint</strong>
+        </p>
+        <p>
+          Click on the logo (the logo image
+          <a href="https://pokeapi.co/">is also a link</a>) and you'll see the
+          base URL
+        </p>
+        <p>
+          Click the
+          <a href="https://pokeapi.co/docs/v2.html"
+            >link to go back to the docs</a
+          >
+          and click several links on the Pokemon heading link in the sidebar.
+          Notice how the base url stays the same but the endpoint changes. As
+          that endpoint changes so does the data we get back
+        </p>
       </div>
-      <ul class="list-group">
-        <li class="list-group-item">What does API stand for?</li>
-        <li class="list-group-item">
-          API is just a fancy way to say a part of an app that other apps can
-          interact with
-        </li>
-        <li class="list-group-item">
-          Jquery Docs we were just looking at are an API "jQuery API
-          documentation"
+
+      <h3>Pokemon Colors</h3>
+      <ol>
+        <li>
+          Navigate to the
+          <a href="https://pokeapi.co/api/v2/pokemon-color/">Pokemon Colors</a>
+          link under Pokemon in the sidebar
           <ul>
+            <li>This is just the docs</li>
             <li>
-              That's because the jQuery API documentation listed all the
-              functions in the jQuery library that our app can use
+              But if you grab the base URL and add to it the "pokemon-color/"
+              (<a
+                href="https://pokeapi.co/api/v2/pokemon-color/"
+                target="_blank"
+                >this is the link you will get</a
+              >
+              - click to see where it takes you)
+            </li>
+            <li>
+              Notice how it brings up a list of links to information about each
+              Pokemon color group.
+            </li>
+            <li>
+              Click on the link under blue
+              <a
+                href="https://pokeapi.co/api/v2/pokemon-color/2/"
+                target="_blank"
+                >https://pokeapi.co/api/v2/pokemon-color/2/</a
+              >
+            </li>
+            <li>
+              Minimize by clicking to collapse (or scroll) past "names" to
+              <strong>pokemon_species</strong>
+              <ul>
+                <li>
+                  See how we have a list of all blue species with links to more
+                  information about each one
+                </li>
+                <li>
+                  Click one of the species links and see that we have more info
+                  on the given species
+                </li>
+              </ul>
             </li>
           </ul>
         </li>
-        <li class="list-group-item">
-          There are lots of different types of APIs
-          <ul>
-            <li>
-              As web developers we mostly care about <strong>web APIs</strong>
-            </li>
-            <li>
-              In this course we'll focus on <strong>REST web APIs</strong>
-            </li>
-          </ul>
-        </li>
-        <li class="list-group-item">
-          What is a <strong>Web API</strong>?
-          <ul>
-            <li>
-              A tool for getting information from a database to a user via the
-              web or from a user to a database
-            </li>
-          </ul>
-        </li>
-        <li class="list-group-item">
-          Think about how Facebook works
-          <ol>
-            <li>You open Facebook in your browser</li>
-            <li>
-              Your computer sends your user information to the Facebook API
-            </li>
-            <li>
-              Which in turn gets all your relevant info from the Facebook
-              Database
-            </li>
-            <li>And sends that info back to your browser</li>
-            <li>And your browser renders that data so you can see it</li>
-          </ol>
-        </li>
-        <li class="list-group-item">
-          You sign up for a udemy account
-          <ol>
-            <li>
-              Your computer sends your new user name and password (and other
-              account info) to the Udemy API which
-              <strong>permenantly</strong> add it to the Database
-            </li>
-          </ol>
-        </li>
-        <li class="list-group-item">
-          **note** A web API is a mediator of all communication between web app
-          users and Databases
-        </li>
-        <li class="list-group-item">
-          Can one application use data from another application?
-          <strong>Yes!</strong>
-          <ul>
-            <li>Airbnb uses the Google Maps data via the Google Maps API</li>
-            <li>
-              Some WordPress blogs show Twitter feeds in the sidebar on the
-              homepage. WordPress is using the Twitter API to do this!
-            </li>
-            <li>
-              When you are searching for cheap flights on
-              <strong>kayak</strong> it is using APIs from Delta, United, Jet
-              Blue, Spirit and a ton of others to give you that data.
-            </li>
-          </ul>
-        </li>
-        <li class="list-group-item">Are all APIs free? No. But many are</li>
-        <li class="list-group-item">
-          <strong>Warning!</strong> Reading APIs and understanding them is a
-          skill. It is tough at first but after working on a few dozen differnt
-          APIs you'll get better at this skill. Practice makes perfect
-        </li>
-      </ul>
-      <div id="empty-area"></div>
+      </ol>
+      <h2>
+        So.... What good does this do for me? When would I use this? How might I
+        use this?
+      </h2>
       <div class="card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">
-            Use the 15 minutes wisely!
+            Use the 5 minutes wisely!
           </p>
         </div>
       </div>
