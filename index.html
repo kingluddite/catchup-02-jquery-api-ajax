@@ -13,11 +13,24 @@
       <li>What is the error?</li>
       <li>How do we fix the error?</li>
     </ol>
-    <div id="root"></div>
+
+    <h3>The error was this:</h3>
+    <img src="img/error.png" alt="$ error" />
+    <h3>We fix the error</h3>
+     <p>By adding a script element with a src attribute pointing to a CDN</p>
+     <h4>Where can you get jQuery CDNs</h4>
+     <ul>
+       <li>From <a href="https://code.jquery.com/">jQuery itself</a></li>
+       <li>Or from Google Hosted libraries which gives you the added benefit of providing the script elements and the src attribute filled in with the link to the latest <a href="https://developers.google.com/speed/libraries#jquery">jQuery minified code</a>. Then you just have to copy and paste it into your code and you're off to the races.</li>
+     </ul>
+     <h4>Question</h4>
+     <p>View the source code and you'll see we've added the script element pointing to jQuery. Is the error gone?</p>
+     <h5>Why is the error still there?</h5>
+     <p>We added the link and we still get the `$` error which means jQuery is still defined</p>
     <script>
       $("#root").html(
         "<h2>I am now using jQuery to dynamically render markdown"
       );
     </script>
-  </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </html>
