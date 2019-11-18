@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Activity One</title>
+    <title>Activity One Answer</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,16 +18,22 @@
         <h1>Using jQuery Docs</h1>
       </div>
       <div class="alert alert-primary" role="alert">
-        Take 5 minutes to search the jQuery docs and find and open 3 Chrome tabs
-        for:
+        Let's review how to find the following jQuery functions
       </div>
       <ul>
+        <li>append()</li>
+        <li>css()</li>
         <li>
-          Append some new content to a div that already has some content in it
+          <a href="https://api.jquery.com/click/" target="_blank">click()</a>
         </li>
-        <li>Define a function that will run when an HTML element is clicked</li>
-        <li>Alter the css of an HTML element</li>
       </ul>
+
+      <pre>
+        $( "#target" ).click(function() {
+          alert( "Handler for .click() called." );
+        });
+      </pre>
+      <h2>Discuss the <strong>Callback function</strong></h2>
       <div class="card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title"></h5>
