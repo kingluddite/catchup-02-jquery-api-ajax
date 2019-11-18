@@ -19,7 +19,7 @@ function startTimer(duration, display) {
 
 $(document).ready(function() {
   console.log("timer works!");
-  var fiveMinutes = 60 * 5,
+  var fiveMinutes = 60 * 10,
     display = $(".card-title");
   startTimer(fiveMinutes, display);
 });
