@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vanilla JavaScript and DOM</title>
+  </head>
+  <body>
+    <h1>Dynamic Page</h1>
+    <div id="root"></div>
+
+    <script>
+      var root = document.querySelector("#root");
+      root.innerHTML =
+        "I just dynamically rendered markdown using the DOM and Vanilla JavaScript";
+    </script>
+  </body>
+</html>
