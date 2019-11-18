@@ -7,7 +7,17 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Catchup Sessions</h1>
-    <h2>Using the DOM with Vanilla JavaScript vs Jquery</h2>
+    <h1>Now let's do the same thing with jQuery</h1>
+    <p>Use the Chrome inspector and tell me</p>
+    <ol>
+      <li>What is the error?</li>
+      <li>How do we fix the error?</li>
+    </ol>
+    <div id="root"></div>
+    <script>
+      $("#root").html(
+        "<h2>I am now using jQuery to dynamically render markdown"
+      );
+    </script>
   </body>
 </html>
