@@ -14,7 +14,6 @@
 ```
 git checkout master
 git checkout vanilla-js
-git branch
 git checkout 02-jquery
 git checkout 03-fixed-jquery
 git checkout 04-jquery-placement
