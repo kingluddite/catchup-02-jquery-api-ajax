@@ -12,6 +12,7 @@
 * Use the following two commands to pull remote branches down to your local machine
 
 `$ git fetch --all`
+
 `$ git pull --all`
 
 ### Checkout branches locally
