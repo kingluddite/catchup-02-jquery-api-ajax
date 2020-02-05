@@ -11,9 +11,8 @@
 * Each of the lessons will be contained inside their own branches. You need to pull down these remote branches to your local machine
 * Use the following two commands to pull remote branches down to your local machine
 
-`$ git fetch --all`
-
-`$ git pull --all`
+* `$ git fetch --all`
+* `$ git pull --all`
 
 ### Checkout branches locally
 * To focus more on the code we will just checkout a branch to work on the next lesson
