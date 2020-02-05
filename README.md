@@ -19,7 +19,7 @@
 * You have access to the repo after the Catchup so you can play around with the code (the best way to learn how to code is.... to code)
 * To checkout a branch just type any of the following to checkout that particular branch
 * To see all your branches you can type `$ git branch`, (you won't see a list of the branches until you check each one out individually)
-* To break out of the list of branches type `:q` (colon keypad key + the `q` keypad key) for quit
+* To break out of the list of branches type `q` for quit
 
 ```
 $ git checkout master
