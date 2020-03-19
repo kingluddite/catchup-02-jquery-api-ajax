@@ -4,4 +4,4 @@
 * Demo adding Bootstrap elements
 
 ## Next
-`$ git checkout 08-activity-one`
+`$ git checkout 09-activity-one`
