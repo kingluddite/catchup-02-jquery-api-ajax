@@ -6,4 +6,4 @@
 * Why is jQuery not defined?
 
 ## Next
-`$ git checkout 03-fixed-jquery`
+`$ git checkout 04-jquery-placement`
