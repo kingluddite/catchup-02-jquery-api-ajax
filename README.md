@@ -1,4 +1,4 @@
-# Catchup Session
+# Catchup Session #2
 ## Review jQuery, API, AJAX
 
 ## Instructions
