@@ -4,3 +4,4 @@
 * After covering the activity, demonstrate how we would need to alter this code if the button was added dynamically to the page
 
 ## Next
+`$ git checkout 13-activity-two-dynamic-button`
