@@ -65,3 +65,6 @@ $( "#target" ).click(function() {
 
 ### The callback
 * Discuss the format of the callback function that it takes as a parameter
+
+## Next - Activity 2
+`$ git checkout 11-activity-two-question`
