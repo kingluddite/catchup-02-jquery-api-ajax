@@ -34,7 +34,7 @@ $ git checkout 08-bootstrap
 $ git checkout 09-activity-one
 $ git checkout 10-activity-one-answers
 $ git checkout 11-activity-two-question
-$ git checkout 13-act
+$ git checkout 13-activity-two-answer
 $ git checkout 13-act-two-wrong-first
 $ git checkout 13-activity-two-dynamic-button
 $ git checkout 14-api-demo
