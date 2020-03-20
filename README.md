@@ -1,13 +1,9 @@
-# Activity 3
-* Time (5 minutes)
-* Using the Pokemon API documentation https://pokeapi.co/docs/v2.html/, find a list of all Pokemon species that live in Mountains.
+# Activity 4
+* Time (10 minutes)
+* This task won't be easy but it's an important activity. The hardest thing about using other people's APIs, is learning to read documentation. It's okay if you don't get this, but keep trying for the full time allotted.
 
-## Solution
-* Review navigating the documentation to find all Pokemon habitats
+## Instructions
+* Check out this Star Wars API https://swapi.co/documentation. Using the documentation as a guide and trying different query URLs, find the number of planets in the database.
 
-1. https://pokeapi.co/api/v2/pokemon-habitat/
-2. And then click the link under "mountains" https://pokeapi.co/api/v2/pokemon-habitat/4/
-3. And scroll down to the species area.
-
-## Next
-`$ git checkout 18-activity-04-start`
+## Next - Activity 4 Solution
+`$ git checkout 18-activity-04-solution`
