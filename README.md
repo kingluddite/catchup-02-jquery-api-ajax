@@ -6,4 +6,4 @@
 * Check out this Star Wars API https://swapi.co/documentation. Using the documentation as a guide and trying different query URLs, find the number of planets in the database.
 
 ## Next - Activity 4 Solution
-`$ git checkout 18-activity-04-solution`
+`$ git checkout 19-activity-04-solution`
