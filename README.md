@@ -38,6 +38,10 @@ $ git checkout 12-activity-two-answer
 $ git checkout 13-activity-two-dynamic-button
 $ git checkout 14-api-demo
 $ git checkout 15-pokemon-api
+$ git checkout 16-activity-03-start
+$ git checkout 17-activity-03-solution
+$ git checkout 18-activity-04-start
+$ git checkout 19-activity-04-solution
 $ git checkout 21-ajax-demo-live-code
 $ git checkout 22-ajax-solution
 $ git checkout 23-star-wars-activity-1-question
