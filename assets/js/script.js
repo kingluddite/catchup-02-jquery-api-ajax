@@ -1,16 +1,16 @@
 $(document).ready(function() {
-  console.log("click code works!");
+  console.log('click code works!');
 
   var randNum = Math.floor(Math.random() * 60);
 
   $.ajax({
-    url: "https://swapi.co/api/planets/" + randNum,
-    method: "GET"
+    url: 'https://swapi.co/api/planets/' + randNum,
+    method: 'GET'
   }).then(function(response) {
     console.log(response);
-    $("#root").append("<h2> Planet Name: " + response.name + "</h2>");
-    $("#root").append("<p> Terrain: " + response.terrain + "</p>");
-    $("#root").append("<p> Population: " + response.population + "</p>");
+    $('#root').append('<h2> Planet Name: ' + response.name + '</h2>');
+    $('#root').append('<p> Terrain: ' + response.terrain + '</p>');
+    $('#root').append('<p> Population: ' + response.population + '</p>');
   });
   // shortcut alternate way
   // $.get("https://swapi.co/api/planets/" + randNum).done(function(data) {
@@ -19,3 +19,6 @@ $(document).ready(function() {
   //   $("#root").append("<p> Population: " + data.population + "</p>");
   // });
 });
+
+// Add Feedback link to slack
+// https://forms.gle/h24r1eNacqRRQ68y9
