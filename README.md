@@ -13,4 +13,4 @@
 * The easiest way to acheive this is to query for all planets https://swapi.co/api/planets/ and check the count value which was 61 when this lesson was created
 
 ## Next Ajax!
-`$ git checkout XXX`
+`$ git checkout 21-ajax-demo-live-code`
