@@ -28,5 +28,8 @@
 ### Events and the DOM
 * Many different events and how to attach them to DOM elements with `addEventListener()`
 
+### jQuery in 2020
+* https://flaviocopes.com/jquery/
+
 ## Next
 `$ git checkout 02-jquery`
