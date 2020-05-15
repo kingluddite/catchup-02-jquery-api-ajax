@@ -1,6 +1,9 @@
 # Catchup Session #2
 ## Review jQuery, API, AJAX
 
+## Website for slides
+* [Here is the link for the slide show presentation for this catchupa](https://catchup-02-jquery-apis-ajax.netlify.app)
+
 ## Instructions
 ### Clone to your computer
 * **note** The `$` below means "Type this in the Terminal". When writing the following Terminal commands, ignore the `$` and type the rest. You will see people represent the Terminal on sites like Stackoverflow with the `$`. Repeat. You don't need to type the `$`. (Don't confuse this `$` with the `$` from jQuery)
